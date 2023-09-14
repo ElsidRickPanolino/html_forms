@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+        body{
+            height: 90vh;
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+        }
+        table, th, td{
+            width: fit-content;
+            text-align: left;
+            border-collapse: collapse;
+            border: 1px solid #8888886e;
+            padding: 5px;
+        }
+        th{
+            text-align: center;
+        }
+        thead, tr:nth-child(even) {
+            background-color: #e6e6e6;
+        }
+        td:nth-child(2){
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Science Month Events</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Event Name</th>
+                <th colspan="2">Event Details</th>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Yell Competition</td>
+                <td>09-25-2023</td>
+                <td>PSU Gym</td>
+            </tr>
+            <tr>
+                <td>Quiz Bee</td>
+                <td>09-26-2023</td>
+                <td>CS Building</td>
+            </tr>
+            <tr>
+                <td>Debate</td>
+                <td>09-26-2023</td>
+                <td>PSU Ampitheater</td>
+            </tr>
+            <tr>
+                <td>Palarong Pinoy</td>
+                <td>09-27-2023</td>
+                <td>PSU feild</td>
+            </tr>
+            <tr>
+                <td>Mr. and Ms. CS</td>
+                <td>09-28-2023</td>
+                <td>PSU Gym</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+        <tr></tr>
+        <tr></tr>
+    </table>
+</body>
+</html>
